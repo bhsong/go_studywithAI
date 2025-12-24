@@ -20,5 +20,5 @@ func main() {
 	mike := User{Person: Person{firstName: "Mike"}, lastName: "Tyson"}
 
 	fmt.Println(bob.name())
-	fmt.Println(mike.firstName + " " + mike.lastName)
+	fmt.Println(mike.name() + " " + mike.lastName)
 }
