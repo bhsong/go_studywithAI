@@ -51,3 +51,11 @@
 ### [2025-12-24]
 - map은 Python 언어의 dictionary와 같음
 - for + range를 통해 slice와 map의 요소들을 순회할 수 있음
+
+### [2025-12-25]
+- 고루틴: 동시성(Concurrency
+- go 키워드를 함수 호출할 때 함수명 앞에 붙이면 됨
+- var wg sync.WaitGroup
+- wg.Add(n), wg.Wait()
+- 고루틴으로 돌릴 함수는 파라미터로 wg *sync.WaitGroup 받음
+- 고루틴으로 돌릴 함수는 defer wg.Done() 구문 필요 = 함수가 끝나면 실행 다 했다고 알림
