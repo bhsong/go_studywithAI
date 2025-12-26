@@ -59,3 +59,9 @@
 - wg.Add(n), wg.Wait()
 - 고루틴으로 돌릴 함수는 파라미터로 wg *sync.WaitGroup 받음
 - 고루틴으로 돌릴 함수는 defer wg.Done() 구문 필요 = 함수가 끝나면 실행 다 했다고 알림
+
+### [2025-12-26]
+- GO 기본 문법 끝
+- channel & select
+- make(chan string), close()
+- select문. switch문과 유사하게 생김
